@@ -1,0 +1,18 @@
+GO to the path :
+
+vi /etc/ansible/hosts
+
+[test] --> specify any name
+slave ipaddress(eg:ubuntu@172.2.4.6)
+
+
+
+execute "ansible -m ping 'test'  --> to check the connection it will give 
+
+ubuntu@3.84.41.93 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+
+
+
