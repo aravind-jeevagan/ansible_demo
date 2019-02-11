@@ -19,7 +19,7 @@ IN SLAVE :
 1)cat >> ~/.ssh/authorized_keys
 paste the key here 
 
-Now run "SSH slave ip address" in Master
+Now run "SSH slave ip address(eg:ubuntu@172.5.6.7)" in Master
 
 
 
