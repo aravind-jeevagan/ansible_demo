@@ -1,6 +1,6 @@
 GO to the path :
 
-vi /etc/ansible/hosts
+vi /etc/ansible/hosts(press esc,:wq) or sudo nano etc/ansible/hosts (press ctrl+x and y) 
 
 [test] --> specify any name
 slave ipaddress(eg:ubuntu@172.2.4.6)
