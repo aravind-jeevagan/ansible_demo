@@ -1,4 +1,7 @@
 create a new file with .yml extension
+
+touch play1.yml
+
 vi play1.yml
 
 ---
@@ -21,6 +24,11 @@ vi play1.yml
 Run the command to execute the playbook(Master):
 
 ansible-playbook play1.yml
+
+TO CHECK THE SYNTAX:
+
+ansible-playbook play1.yml --syntax-check
+ 
 
 To check in slave:
 
