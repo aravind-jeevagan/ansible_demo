@@ -7,7 +7,8 @@ sudo apt-get update
 sudo apt-get install ansible
 
 
- SSH CONNECTION:
+ SSH CONNECTION :
+ ===============
  
  In Master :
  Run the commands 
@@ -20,6 +21,7 @@ IN SLAVE :
 paste the key here 
 
 Now run "SSH slave ip address(eg:ubuntu@172.5.6.7)" in Master
+exit -->to logout from slave
 
 
 
