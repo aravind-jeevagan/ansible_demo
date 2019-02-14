@@ -15,4 +15,9 @@ ubuntu@3.84.41.93 | SUCCESS => {
 }
 
 
+ "module_stdout": "/bin/sh: 1: /usr/bin/python: not found\r\n",
+ If this error occurs
+ Install python in the slave machine
+ sudo apt-get install python-minimal -y
+
 
