@@ -3,7 +3,7 @@ vi play1.yml
 
 ---
 - name: Install nginx
-  hosts: host.name.ip
+  hosts: host.name.ip(Service name which you gave in inventory file)
   become: true
 
   tasks:
