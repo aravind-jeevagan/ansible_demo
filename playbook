@@ -1,9 +1,12 @@
 create a new file with .yml extension
+
+touch play1.yml
+
 vi play1.yml
 
 ---
 - name: Install nginx
-  hosts: host.name.ip
+  hosts: host.name.ip(Service name which you gave in inventory file)
   become: true
 
   tasks:
@@ -21,6 +24,11 @@ vi play1.yml
 Run the command to execute the playbook(Master):
 
 ansible-playbook play1.yml
+
+TO CHECK THE SYNTAX:
+
+ansible-playbook play1.yml --syntax-check
+ 
 
 To check in slave:
 
