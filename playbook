@@ -19,8 +19,17 @@ vi play1.yml
     service:
       name: nginx
       state: started
-      
-      
+  
+  
+  
+ ==========================================
+ alternate command to install nginx:
+ 
+ - name: install nginx
+    raw: apt -y update && apt install -y nginx
+ ============================================   
+ 
+ 
 Run the command to execute the playbook(Master):
 
 ansible-playbook play1.yml
