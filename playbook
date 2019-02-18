@@ -32,7 +32,7 @@ ansible-playbook play1.yml --syntax-check
 
 To check in slave:
 
-sudo aux | grep nginx
+ps aux | grep nginx
 
 You will get something like this:
 
