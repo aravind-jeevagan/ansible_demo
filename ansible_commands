@@ -1,0 +1,13 @@
+ansible --list-hosts all
+
+Note: ansible.cfg has the default inventoryfile name  (/etc/ansible)
+
+ansible -i inventoryfilename --list-hosts all
+
+ansible -i inventoryfilename --list-hosts hostgroup_name
+
+Modules : https://docs.ansible.com/ansible/latest/user_guide/modules_intro.html
+
+ansible -m ping -all              (ping module)
+
+ansible hostgroup_name -m command -a "/sbin/reboot -t now"      (command module)
